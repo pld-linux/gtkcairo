@@ -11,6 +11,7 @@ URL:		http://cairographics.org/cairo/GtkCairo
 BuildRequires:	cairo-devel >= 0.1.1
 BuildRequires:	glitz-devel >= 0.1.3
 BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	pkgconfig
 Requires:	cairo >= 0.1.1
 Requires:	glitz >= 0.1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
