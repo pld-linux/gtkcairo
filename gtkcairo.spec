@@ -1,19 +1,22 @@
+%define		snap 20050105
+#
 Summary:	GtkCairo - a Cairo surface widget for GTK+
 Summary(pl):	GtkCairo - widget powierzchni Cairo dla GTK+
 Name:		gtkcairo
 Version:	0.3
-Release:	1
+Release:	2.%{snap}.1
 License:	LGPL v2.1
 Group:		Libraries
-Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
-# Source0-md5:	d5d51cdef855edf7829c1cdf7e7e312f
+#Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
+Source0:	%{name}-snap-%{snap}.tar.bz2
+# Source0-md5:	4471c3cf97efa63beb636a8ae6f8343f
 URL:		http://cairographics.org/cairo/GtkCairo
 BuildRequires:	cairo-devel >= 0.1.1
-BuildRequires:	glitz-devel >= 0.1.3
+BuildRequires:	glitz-devel >= 0.3.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	pkgconfig
 Requires:	cairo >= 0.1.1
-Requires:	glitz >= 0.1.3
+Requires:	glitz >= 0.3.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -54,9 +57,14 @@ Static GtkCairo library.
 Statyczna biblioteka GtkCairo.
 
 %prep
-%setup -q
+%setup -q -n %{name}
 
 %build
+%{__libtoolize}
+%{__aclocal}
+%{__autoheader}
+%{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
