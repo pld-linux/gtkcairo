@@ -1,4 +1,4 @@
-%define		snap 20050105
+%define		snap 20050606
 #
 Summary:	GtkCairo - a Cairo surface widget for GTK+
 Summary(pl):	GtkCairo - widget powierzchni Cairo dla GTK+
@@ -9,10 +9,10 @@ License:	LGPL v2.1
 Group:		Libraries
 #Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
 Source0:	%{name}-snap-%{snap}.tar.bz2
-# Source0-md5:	4471c3cf97efa63beb636a8ae6f8343f
+# Source0-md5:	830f83ad86a97d01cb2b14a2548da4c8
 URL:		http://cairographics.org/cairo/GtkCairo
 BuildRequires:	cairo-devel >= 0.1.1
-BuildRequires:	glitz-devel >= 0.3.0
+BuildRequires:	glitz-devel >= 0.4.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	pkgconfig
 Requires:	cairo >= 0.1.1
