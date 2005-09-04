@@ -10,7 +10,7 @@ Group:		Libraries
 #Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
 Source0:	%{name}-snap-%{snap}.tar.bz2
 # Source0-md5:	2f2a478773d09311723c27a0416bfbb5
-URL:		http://cairographics.org/cairo/GtkCairo
+URL:		http://cairographics.org/cairo/gtkcairo
 BuildRequires:	cairo-devel >= 0.1.1
 BuildRequires:	glitz-devel >= 0.4.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
