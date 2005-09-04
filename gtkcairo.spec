@@ -7,7 +7,7 @@ License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
 # Source0-md5:	d5d51cdef855edf7829c1cdf7e7e312f
-URL:		http://cairographics.org/cairo/GtkCairo
+URL:		http://cairographics.org/cairo/gtkcairo
 BuildRequires:	cairo-devel >= 0.1.1
 BuildRequires:	glitz-devel >= 0.1.3
 BuildRequires:	gtk+2-devel >= 1:2.0.0
