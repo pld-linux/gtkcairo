@@ -1,7 +1,7 @@
 %define		snap 20050904
 #
 Summary:	GtkCairo - a Cairo surface widget for GTK+
-Summary(pl):	GtkCairo - widget powierzchni Cairo dla GTK+
+Summary(pl.UTF-8):   GtkCairo - widget powierzchni Cairo dla GTK+
 Name:		gtkcairo
 Version:	0.3
 Release:	2.%{snap}.1
@@ -24,14 +24,14 @@ GtkCairo provides a widget with a custom redraw handler, that can be
 extended for other widgets using cairo, it currently supports the
 xlib/xrender and glitz backends.
 
-%description -l pl
-GtkCairo dostarcza widget z w≥asn± procedur± obs≥ugi przerysowania,
-ktÛry moøe rozszerzaÊ inne widgety przy uøyciu cairo. Aktualnie
-obs≥uguje backendy xlib/xrender i glitz.
+%description -l pl.UTF-8
+GtkCairo dostarcza widget z w≈ÇasnƒÖ procedurƒÖ obs≈Çugi przerysowania,
+kt√≥ry mo≈ºe rozszerzaƒá inne widgety przy u≈ºyciu cairo. Aktualnie
+obs≈Çuguje backendy xlib/xrender i glitz.
 
 %package devel
 Summary:	Header files for GtkCairo library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki GtkCairo
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki GtkCairo
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	cairo-devel >= 0.1.1
@@ -41,19 +41,19 @@ Requires:	gtk+2-devel >= 2.0.0
 %description devel
 Header files for GtkCairo library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki GtkCairo.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki GtkCairo.
 
 %package static
 Summary:	Static GtkCairo library
-Summary(pl):	Statyczna biblioteka GtkCairo
+Summary(pl.UTF-8):   Statyczna biblioteka GtkCairo
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static GtkCairo library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka GtkCairo.
 
 %prep
