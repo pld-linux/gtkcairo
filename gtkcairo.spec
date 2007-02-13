@@ -1,5 +1,5 @@
 Summary:	GtkCairo - a Cairo surface widget for GTK+
-Summary(pl.UTF-8):   GtkCairo - widget powierzchni Cairo dla GTK+
+Summary(pl.UTF-8):	GtkCairo - widget powierzchni Cairo dla GTK+
 Name:		gtkcairo
 Version:	0.3
 Release:	1
@@ -28,7 +28,7 @@ obsługuje backendy xlib/xrender i glitz.
 
 %package devel
 Summary:	Header files for GtkCairo library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki GtkCairo
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki GtkCairo
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	cairo-devel >= 0.1.1
@@ -43,7 +43,7 @@ Pliki nagłówkowe biblioteki GtkCairo.
 
 %package static
 Summary:	Static GtkCairo library
-Summary(pl.UTF-8):   Statyczna biblioteka GtkCairo
+Summary(pl.UTF-8):	Statyczna biblioteka GtkCairo
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
